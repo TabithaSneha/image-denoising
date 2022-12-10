@@ -20,7 +20,7 @@ Image Source: Lilian Weng Blog
 
 The difference between the two vectors- the input *x* and the reconstructed input *x'* is calculated using the Mean Square Error loss function.
 
-<img src="https://i.imgur.com/WRuQCOH.png" height="150" width="350" >
+<img src="https://i.imgur.com/WRuQCOH.png" height="100" width="350" >
 
 ### Denoising Autoencoders:
 
@@ -72,7 +72,7 @@ The CIFAR-10 dataset has been used which is most commonly seen in training machi
 The Encoder model consists of 4 Convolutional Layers that takes an input image dimension of 28x28 and returns an output of dimension 7x7.
 The Decoder model consists of 4 Deconvolutional Layers that takes the input dimension of 7x7 and outputs 28x28 again.
 
-![Pic](https://i.imgur.com/HQIALcN.png)
+<img src="https://i.imgur.com/HQIALcN.png" height="400" width="650" >
 
 ### Parameters used:
 
