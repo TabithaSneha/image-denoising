@@ -40,7 +40,6 @@ Image Source: Lilian Weng Blog
 * PyTorch 3.11
 * Matplotlib
 * Numpy
-* Pandas
 
 ### Dataset used:
 
