@@ -16,11 +16,11 @@ It consists of two networks:
 * *Decoder network*: The decoder network recovers the data from the code, likely with larger and larger output layers.
 
 <img src="https://i.imgur.com/E3iZ1a2.png" height="350" width="600" >
-Image Source: Lilian Weng Blog
 
 The difference between the two vectors- the input *x* and the reconstructed input *x'* is calculated using the Mean Square Error loss function.
 
 <img src="https://i.imgur.com/WRuQCOH.png" height="100" width="350" >
+Image Source: Lilian Weng Blog
 
 ### Denoising Autoencoders:
 
@@ -29,9 +29,9 @@ Since the autoencoder learns the identity function, we are facing the risk of ov
 To avoid overfitting and improve the robustness, Denoising Autoencoder was proposed as a modification to the basic autoencoder. The input is partially corrupted by adding noises (i.e. masking noise, Gaussian noise, salt-and-pepper noise, etc.) to the input vector in a stochastic manner. Then the model is trained to recover the original input from the noisy input.
 
 <img src="https://i.imgur.com/TKk2EJB.png" height="400" width="650" >
-Image Source: Lilian Weng Blog
 
 <img src="https://i.imgur.com/ZbqTDun.png" height="150" width="350" >
+Image Source: Lilian Weng Blog
 
 ## Methodology:-
 
@@ -72,7 +72,7 @@ The CIFAR-10 dataset has been used which is most commonly seen in training machi
 The Encoder model consists of 4 Convolutional Layers that takes an input image dimension of 28x28 and returns an output of dimension 7x7.
 The Decoder model consists of 4 Deconvolutional Layers that takes the input dimension of 7x7 and outputs 28x28 again.
 
-<img src="https://i.imgur.com/HQIALcN.png" height="450" width="700" >
+<img src="https://i.imgur.com/HQIALcN.png" height="500" width="700" >
 
 ### Parameters used:
 
@@ -89,6 +89,8 @@ The Decoder model consists of 4 Deconvolutional Layers that takes the input dime
 ### Output Images:-
 
 <img src="https://i.imgur.com/sMTtzYs.png" height="450" width="650" >
+
+### Output Images:-
 
 <img src="https://i.imgur.com/KbuN6zp.png" height="450" width="650" >
 
