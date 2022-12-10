@@ -20,7 +20,7 @@ Image Source: Lilian Weng Blog
 
 The difference between the two vectors- the input *x* and the reconstructed input *x'* is calculated using the Mean Square Error loss function.
 
-<img src="https://i.imgur.com/WRuQCOH.png" height="300" width="500" >
+<img src="https://i.imgur.com/WRuQCOH.png" height="200" width="500" >
 
 ### Denoising Autoencoders:
 
@@ -28,10 +28,10 @@ Since the autoencoder learns the identity function, we are facing the risk of ov
 
 To avoid overfitting and improve the robustness, Denoising Autoencoder was proposed as a modification to the basic autoencoder. The input is partially corrupted by adding noises (i.e. masking noise, Gaussian noise, salt-and-pepper noise, etc.) to the input vector in a stochastic manner. Then the model is trained to recover the original input from the noisy input.
 
-<img src="https://i.imgur.com/TKk2EJB.png" height="350" width="600" >
+<img src="https://i.imgur.com/TKk2EJB.png" height="400" width="650" >
 Image Source: Lilian Weng Blog
 
-<img src="https://i.imgur.com/ZbqTDun.png" height="300" width="500" >
+<img src="https://i.imgur.com/ZbqTDun.png" height="200" width="500" >
 
 ## Methodology:-
 
