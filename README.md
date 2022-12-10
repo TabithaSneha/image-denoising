@@ -16,7 +16,7 @@ It consists of two networks:
 * *Decoder network*: The decoder network recovers the data from the code, likely with larger and larger output layers.
 
 ![Pic](https://i.imgur.com/E3iZ1a2.png)
-
+Image Source: Lilian Weng Blog
 
 The difference between the two vectors- the input *x* and the reconstructed input *x'* is calculated using the Mean Square Error loss function.
 
@@ -29,9 +29,10 @@ Since the autoencoder learns the identity function, we are facing the risk of ov
 
 To avoid overfitting and improve the robustness, Denoising Autoencoder was proposed as a modification to the basic autoencoder. The input is partially corrupted by adding noises (i.e. masking noise, Gaussian noise, salt-and-pepper noise, etc.) to the input vector in a stochastic manner. Then the model is trained to recover the original input from the noisy input.
 
-[pic]
+![Pic](https://i.imgur.com/TKk2EJB.png)
+Image Source: Lilian Weng Blog
 
-[pic]
+![Pic](https://i.imgur.com/ZbqTDun.png)
 
 ## Methodology:-
 
@@ -72,7 +73,7 @@ The CIFAR-10 dataset has been used which is most commonly seen in training machi
 The Encoder model consists of 4 Convolutional Layers that takes an input image dimension of 28x28 and returns an output of dimension 7x7.
 The Decoder model consists of 4 Deconvolutional Layers that takes the input dimension of 7x7 and outputs 28x28 again.
 
-[pic]
+![Pic](https://i.imgur.com/HQIALcN.png)
 
 ### Parameters used:
 
@@ -88,11 +89,13 @@ The Decoder model consists of 4 Deconvolutional Layers that takes the input dime
 
 ### Output Images:-
 
-[pic]
+![Pic](https://i.imgur.com/sMTtzYs.png)
+
+![Pic](https://i.imgur.com/KbuN6zp.png)
 
 ### Plot of Loss vs Epochs:-
 
-[pic]
+![Pic](https://i.imgur.com/IYi3yOM.png)
 
 Train Loss: 0.140
 
@@ -103,5 +106,5 @@ Train Loss: 0.140
 
 ## References:-
 
-* https://lilianweng.github.io/posts/2018-08-12-vae/
-* https://ai.plainenglish.io/denoising-autoencoder-in-pytorch-on-mnist-dataset-a76b8824e57e
+* [From Autoencoder to Beta-VAE: Lilian Weng](https://lilianweng.github.io/posts/2018-08-12-vae/)
+* [Denoising Autoencoder in Pytorch: Eugenia Anello](https://ai.plainenglish.io/denoising-autoencoder-in-pytorch-on-mnist-dataset-a76b8824e57e)
