@@ -15,13 +15,12 @@ It consists of two networks:
 * *Encoder network*: It translates the original high-dimension input into the latent low-dimensional code. The input size is larger than the output size.
 * *Decoder network*: The decoder network recovers the data from the code, likely with larger and larger output layers.
 
-<img src="https://i.imgur.com/E3iZ1a2.png" height="300" width="550" >
+<img src="https://i.imgur.com/E3iZ1a2.png" height="350" width="600" >
 Image Source: Lilian Weng Blog
 
 The difference between the two vectors- the input *x* and the reconstructed input *x'* is calculated using the Mean Square Error loss function.
 
-![Pic](https://i.imgur.com/WRuQCOH.png)
-
+<img src="https://i.imgur.com/WRuQCOH.png" height="300" width="500" >
 
 ### Denoising Autoencoders:
 
@@ -29,10 +28,10 @@ Since the autoencoder learns the identity function, we are facing the risk of ov
 
 To avoid overfitting and improve the robustness, Denoising Autoencoder was proposed as a modification to the basic autoencoder. The input is partially corrupted by adding noises (i.e. masking noise, Gaussian noise, salt-and-pepper noise, etc.) to the input vector in a stochastic manner. Then the model is trained to recover the original input from the noisy input.
 
-<img src="https://i.imgur.com/TKk2EJB.png" height="300" width="550" >
+<img src="https://i.imgur.com/TKk2EJB.png" height="350" width="600" >
 Image Source: Lilian Weng Blog
 
-![Pic](https://i.imgur.com/ZbqTDun.png)
+<img src="https://i.imgur.com/ZbqTDun.png" height="300" width="500" >
 
 ## Methodology:-
 
