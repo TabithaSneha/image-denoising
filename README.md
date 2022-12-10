@@ -20,7 +20,7 @@ Image Source: Lilian Weng Blog
 
 The difference between the two vectors- the input *x* and the reconstructed input *x'* is calculated using the Mean Square Error loss function.
 
-<img src="https://i.imgur.com/WRuQCOH.png" height="200" width="500" >
+<img src="https://i.imgur.com/WRuQCOH.png" height="100" width="300" >
 
 ### Denoising Autoencoders:
 
@@ -31,7 +31,7 @@ To avoid overfitting and improve the robustness, Denoising Autoencoder was propo
 <img src="https://i.imgur.com/TKk2EJB.png" height="400" width="650" >
 Image Source: Lilian Weng Blog
 
-<img src="https://i.imgur.com/ZbqTDun.png" height="200" width="500" >
+<img src="https://i.imgur.com/ZbqTDun.png" height="100" width="300" >
 
 ## Methodology:-
 
