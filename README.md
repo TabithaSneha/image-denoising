@@ -72,7 +72,7 @@ The CIFAR-10 dataset has been used which is most commonly seen in training machi
 The Encoder model consists of 4 Convolutional Layers that takes an input image dimension of 28x28 and returns an output of dimension 7x7.
 The Decoder model consists of 4 Deconvolutional Layers that takes the input dimension of 7x7 and outputs 28x28 again.
 
-<img src="https://i.imgur.com/HQIALcN.png" height="400" width="650" >
+<img src="https://i.imgur.com/HQIALcN.png" height="450" width="700" >
 
 ### Parameters used:
 
@@ -88,9 +88,9 @@ The Decoder model consists of 4 Deconvolutional Layers that takes the input dime
 
 ### Output Images:-
 
-![Pic](https://i.imgur.com/sMTtzYs.png)
+<img src="https://i.imgur.com/sMTtzYs.png" height="450" width="650" >
 
-![Pic](https://i.imgur.com/KbuN6zp.png)
+<img src="https://i.imgur.com/KbuN6zp.png" height="450" width="650" >
 
 ### Plot of Loss vs Epochs:-
 
