@@ -20,7 +20,7 @@ It consists of two networks:
 The difference between the two vectors- the input *x* and the reconstructed input *x'* is calculated using the Mean Square Error loss function.
 
 <img src="https://i.imgur.com/WRuQCOH.png" height="100" width="350" >
-Image Source: Lilian Weng Blog
+[Image Source](https://lilianweng.github.io/posts/2018-08-12-vae/)
 
 ### Denoising Autoencoders:
 
@@ -31,7 +31,7 @@ To avoid overfitting and improve the robustness, Denoising Autoencoder was propo
 <img src="https://i.imgur.com/TKk2EJB.png" height="400" width="650" >
 
 <img src="https://i.imgur.com/ZbqTDun.png" height="150" width="350" >
-Image Source: Lilian Weng Blog
+[Image Source](https://lilianweng.github.io/posts/2018-08-12-vae/)
 
 ## Methodology:-
 
@@ -89,7 +89,7 @@ The Decoder model consists of 4 Deconvolutional Layers that takes the input dime
 
 <img src="https://i.imgur.com/sMTtzYs.png" height="450" width="650" >
 
-### Output Images:-
+<br/><br/>
 
 <img src="https://i.imgur.com/KbuN6zp.png" height="450" width="650" >
 
