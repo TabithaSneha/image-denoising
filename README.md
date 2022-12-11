@@ -56,9 +56,9 @@ The CIFAR-10 dataset has been used which is most commonly seen in training machi
 * Creating a function to display one batch of training images as 'Original Images' and adding Gaussian noise to it to obtain 'Noisy Images'.
 
 #### Defining the Denoising Autoencoder Architecture:-
-* Defining functions *in_dim* and *out_dim* to determine the output dimensions from Convolution and Transposed Convolution.
-* Creating classes for *Encoder* and *Decoder* which uses the nn.Sequential function for adding the various layers of the network.
-* Defining the *MSELoss* loss function and initializing the *Adam* optimizer.
+* Defining functions `in_dim` and `out_dim` to determine the output dimensions from Convolution and Transposed Convolution.
+* Creating classes for `Encoder` and `Decoder` which uses the nn.Sequential function for adding the various layers of the network.
+* Defining the `MSELoss` loss function and initializing the `Adam` optimizer.
 * Creating a function for returning noisy signals by the addition of stochastic noise sampled from a normal Gaussian distribution to the image dataset.
 
 #### Training the Model and Generating the Reconstructed Image:-
